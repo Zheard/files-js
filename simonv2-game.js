@@ -145,7 +145,7 @@ function inicio()	{
 
 		function menu()			{
 				var cont=document.getElementsByClassName("contenedor")[0];
-				var h2=document.getElementsByTagName("h2")[0];
+				var h3=document.getElementsByTagName("h3")[0];
 				if (ban==0) 	 	
 					{
 						cont.style.display="none"; //Cambia el estilo del contenedor a invisible.
@@ -153,7 +153,7 @@ function inicio()	{
 				if (ban==1)
 					{
 						cont.style.display="grid"; //Cambia el estilo del contenedor a visible.
-						h2.innerHTML="Tu puntaje: "+puntos; //Muestra el puntaje en el titulo del contenedor.
+						h3.innerHTML="Tu puntaje: "+puntos; //Muestra el puntaje en el titulo del contenedor.
 						ini.value="Reiniciar"; //Asigna al boton una nueva palabra dentro.
 					}
 			}
