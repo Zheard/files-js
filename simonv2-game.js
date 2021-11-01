@@ -41,22 +41,22 @@ function inicio()	{
 				if(sec[i].id=="bot1")
 					{
 						sec[i].style.backgroundColor="rgba(255, 0, 0, 1)"; //Cambia el color del boton.
-						sonido("sounds/simon-dice-r1.mp3"); //Reproduce el audio definido entre parentesis.
+						sonido("https://blog.zheard.net/sounds/simon-dice-r1.mp3"); //Reproduce el audio definido entre parentesis.
 					}
 				if(sec[i].id=="bot2")
 					{
 						sec[i].style.backgroundColor="rgba(0, 0, 255, 1)";		
-						sonido("sounds/simon-dice-a2.mp3");
+						sonido("https://blog.zheard.net/sounds/simon-dice-a2.mp3");
 					}
 				if(sec[i].id=="bot3")
 					{
 						sec[i].style.backgroundColor="rgba(255, 255, 0, 1)";
-						sonido("sounds/simon-dice-a3.mp3");
+						sonido("https://blog.zheard.net/sounds/simon-dice-a3.mp3");
 					}
 				if(sec[i].id=="bot4")
 					{
 						sec[i].style.backgroundColor="rgba(0, 255, 0, 1)";	
-						sonido("sounds/simon-dice-v4.mp3");
+						sonido("https://blog.zheard.net/sounds/simon-dice-v4.mp3");
 					}
 				tiempoColor=setTimeout(apagarSec,500,i); //Dispara la funcion apagarSec despues de medio segundo.
 			}
@@ -72,22 +72,22 @@ function inicio()	{
 				var pos = acc.target || acc.srcElement; // Se guarda el objetivo del evento, o la el elemento fuente del evento.
 				if(pos.id=="bot1")
 					{
-						sonido("sounds/simon-dice-r1.mp3");
+						sonido("https://blog.zheard.net/sounds/simon-dice-r1.mp3");
 						pos.style.backgroundColor="rgba(255, 0, 0, 1)";
 					}
 				if(pos.id=="bot2")
 					{
-						sonido("sounds/simon-dice-a2.mp3");
+						sonido("https://blog.zheard.net/sounds/simon-dice-a2.mp3");
 						pos.style.backgroundColor="rgba(0, 0, 255, 1)";
 					}
 				if(pos.id=="bot3")
 					{
-						sonido("sounds/simon-dice-a3.mp3");
+						sonido("https://blog.zheard.net/sounds/simon-dice-a3.mp3");
 						pos.style.backgroundColor="rgba(255, 255, 0, 1)";
 					}
 				if(pos.id=="bot4")
 					{
-						sonido("sounds/simon-dice-v4.mp3");
+						sonido("https://blog.zheard.net/sounds/simon-dice-v4.mp3");
 						pos.style.backgroundColor="rgba(0, 255, 0, 1)";
 					}
 				apagarColor=setTimeout(apagarMarc,500,pos); //Dispara la funcion apagarMarc despues de medio segundo.
@@ -127,7 +127,7 @@ function inicio()	{
 			}
 
 		function perder()			{
-				sonido("sounds/simon-dice_perder.mp3")
+				sonido("https://blog.zheard.net/sounds/simon-dice_perder.mp3")
 				ban=1; //Cambia el valor de vandera para cambiar el mensaje de menu.
 				menu(); //Dispara la funcion menu.
 				for(i=0;i<4;i++)
