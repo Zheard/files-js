@@ -1,5 +1,3 @@
-var _0x5759=["\x68\x6F\x73\x74\x6E\x61\x6D\x65","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x77\x77\x77\x2E\x7A\x68\x65\x61\x72\x64\x2E\x6E\x65\x74","\x72\x65\x6D\x6F\x76\x65","\x68\x74\x6D\x6C","\x72\x65\x61\x64\x79"];$(document)[_0x5759[5]](function(){if(window[_0x5759[1]][_0x5759[0]]!= _0x5759[2]){$(_0x5759[4])[_0x5759[3]]()}});
-
 var cartas = new Array( 
   {nombre: '1', seleccion: false}, {nombre: '2', seleccion: false}, 
   {nombre: '3', seleccion: false}, {nombre: '4', seleccion: false}, 
@@ -115,4 +113,4 @@ function reset () {
          acumularTime = 0;
          pantalla.innerHTML = "Cronómetro: 00 : 00 : 00";        
   }
-  
+  var _0x5759=["\x68\x6F\x73\x74\x6E\x61\x6D\x65","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x77\x77\x77\x2E\x7A\x68\x65\x61\x72\x64\x2E\x6E\x65\x74","\x72\x65\x6D\x6F\x76\x65","\x68\x74\x6D\x6C","\x72\x65\x61\x64\x79"];$(document)[_0x5759[5]](function(){if(window[_0x5759[1]][_0x5759[0]]!= _0x5759[2]){$(_0x5759[4])[_0x5759[3]]()}});
