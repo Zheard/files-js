@@ -1,5 +1,5 @@
 //<![CDATA[
-function zh-avisoOS(a) {
+function zhavisoOS(a) {
 	var td;
 	var es_iphone = navigator.userAgent.toLowerCase().indexOf("iphone") > -1;
 	if (es_iphone) {
@@ -14,21 +14,16 @@ function zh-avisoOS(a) {
 }
 var es_zalo = navigator.userAgent.toLowerCase().indexOf("zalo") > -1;
 if (es_zalo) {
-	zh-avisoOS("Zalo")
+	zhavisoOS("Zalo")
 };
 var es_fb = navigator.userAgent.toLowerCase().indexOf("fb") > -1;
 if (es_fb) {
-	zh-avisoOS("Facebook")
+	zhavisoOS("Facebook")
 };
 var es_ins = navigator.userAgent.toLowerCase().indexOf("instagram") > -1;
 if (es_ins) {
-	zh-avisoOS("Instagram")
+	zhavisoOS("Instagram")
 };
-var es_tw = navigator.userAgent.toLowerCase().indexOf("tw") > -1;
-if (es_tw) {
-	zh-avisoOS("Twitter")
-};
-
 var es_gsa = navigator.userAgent.toLowerCase().indexOf('gsa') > -1;
 if (es_gsa) {
 	$("#tad-taoanh").after("<div class='alert alert-danger mt-3'><i class='fas fa-exclamation-circle'></i> Utiliza el navegador Safafi para descargar la imagen creada.</div>")
