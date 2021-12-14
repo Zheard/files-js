@@ -24,6 +24,11 @@ var es_ins = navigator.userAgent.toLowerCase().indexOf("instagram") > -1;
 if (es_ins) {
 	zh-avisoOS("Instagram")
 };
+var es_tw = navigator.userAgent.toLowerCase().indexOf("tw") > -1;
+if (es_tw) {
+	zh-avisoOS("Twitter")
+};
+
 var es_gsa = navigator.userAgent.toLowerCase().indexOf('gsa') > -1;
 if (es_gsa) {
 	$("#tad-taoanh").after("<div class='alert alert-danger mt-3'><i class='fas fa-exclamation-circle'></i> Utiliza el navegador Safafi para descargar la imagen creada.</div>")
