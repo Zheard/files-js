@@ -1,3 +1,4 @@
+//<![CDATA[
 function zh-avisoOS(a) {
 	var td;
 	var es_iphone = navigator.userAgent.toLowerCase().indexOf("iphone") > -1;
@@ -51,3 +52,5 @@ if (es_crlow) {
 		$("#tad-taoanh").after("<div class='alert alert-danger mt-2'><i class='fas fa-exclamation-triangle'></i> La versión de Chrome es demasiado antigua. Actualiza la aplicación para crear mejores fotos.</div>");
 	}
 }
+//
+         //]]>
