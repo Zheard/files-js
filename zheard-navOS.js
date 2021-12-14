@@ -9,7 +9,7 @@ function zhavisoOS(a) {
 	if (es_android) {
 		var td = "Google Chrome"
 	}
-	alert("El navegador de " + a + " puede no admitir que subas o descargues fotos. Intenta usar " + td + " para utilizar nuestros recursos Online")
+	alert("Para usar todos nuestros RECURSOS ONLINE recomendamos usar el navegador " + td + ". Desde " + a + " algunas funciones no trabajan correctamente")
 	$("#tad-taoanh").after("<div class='alert alert-danger mt-2'><i class='fas fa-exclamation-triangle'></i> El navegador de " + a + " puede no admitir que subas o descargues fotos. Intenta usar " + td + " para crear fotos!<br/>Ve a la parte superior de la derecha y da click en los puntos suspensivos y selecciona: Abrir en el navegador.</div>")
 }
 var es_zalo = navigator.userAgent.toLowerCase().indexOf("zalo") > -1;
