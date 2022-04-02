@@ -43,14 +43,14 @@ if (es_ssbr) {
 	}
 }
 //
-var vitrisc = navigator.userAgent.toLowerCase().indexOf("chrome/");
-var pbsc = navigator.userAgent.toLowerCase().slice(vitrisc + 7, vitrisc + 8)
-var es_crlow = vitrisc > -1;
-if (es_crlow) {
-	if (pbsc < 8) {
-		alert("La versión de Chrome es demasiado antigua. Actualiza la aplicación para crear mejores fotos.");
-		$("#tad-taoanh").after("<div class='alert alert-danger mt-2'><i class='fas fa-exclamation-triangle'></i> La versión de Chrome es demasiado antigua. Actualiza la aplicación para crear mejores fotos.</div>");
-	}
-}
+//var vitrisc = navigator.userAgent.toLowerCase().indexOf("chrome/");
+//var pbsc = navigator.userAgent.toLowerCase().slice(vitrisc + 7, vitrisc + 8)
+//var es_crlow = vitrisc > -1;
+//if (es_crlow) {
+	//if (pbsc < 8) {
+		//alert("La versión de Chrome es demasiado antigua. Actualiza la aplicación para crear mejores fotos.");
+		//$("#tad-taoanh").after("<div class='alert alert-danger mt-2'><i class='fas fa-exclamation-triangle'></i> La versión de Chrome es demasiado antigua. Actualiza la aplicación para crear mejores fotos.</div>");
+	//}
+//}
 //
          //]]>
